@@ -27,6 +27,14 @@ CNN Classification
 
 ## Results
 
+![Final Results](final_results.png)
+
+*Left: Raw radar reflectivity. Middle: Ground truth labels from Marshall-Palmer. Right: CNN predictions.*
+
+![OpenCV Processing](opencv_processing.png)
+
+*OpenCV pipeline: normalised radar, Gaussian blur, Canny edge detection, storm cell contours.*
+
 | Class | Precision | Recall | F1 |
 |---|---|---|---|
 | No rain | 1.000 | 0.939 | 0.969 |
